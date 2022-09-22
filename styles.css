@@ -21,8 +21,8 @@
 }
 
 .name {
-  position:relative;
-  right:10px;
+  position: relative;
+  right: 10px;
   color: var(--white-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
