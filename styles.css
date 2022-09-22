@@ -86,3 +86,8 @@
   padding: 0;
   place-content: space-between;
 }
+
+
+.work-section {
+  color: var(--white-color);
+}
