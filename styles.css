@@ -21,6 +21,7 @@
 }
 
 .name {
+  text-decoration: none;
   position: relative;
   right: 10px;
   color: var(--white-color);
