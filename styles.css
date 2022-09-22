@@ -68,6 +68,8 @@
 }
 
 .headlinescript {
+  position: relative;
+  bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
