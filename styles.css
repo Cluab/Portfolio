@@ -12,7 +12,7 @@
   background-color: #3c3a39;
   position: fixed;
   width: 99%;
-  height: 92px;
+  height: 52px;
 }
 
 .container {
@@ -21,22 +21,25 @@
 }
 
 .name {
+  text-decoration: none;
+  position: relative;
+  right: 10px;
   color: var(--white-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
-  width: 77px;
   height: 24px;
   padding: 1em;
 }
 
 .toolbar {
-  padding: 2em;
-  width: 18px;
+  position: relative;
+  padding: 1.4em;
+  width: 68px;
   height: 12px;
-  left: 3px;
-  top: 6px;
+  left: 20px;
+  top: 2px;
 }
 
 .headline {
@@ -65,6 +68,8 @@
 }
 
 .headlinescript {
+  position: relative;
+  bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
