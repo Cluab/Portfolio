@@ -238,7 +238,7 @@
   flex-direction: column;
   height: 350px;
   border-radius: 0;
-  background: url("/img/Img\ Placeholder1.svg");
+  background: url("/img/Placeholder1.svg");
   gap: 10px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -377,7 +377,7 @@
   align-items: flex-start;
   padding: 120px 24px;
   gap: 24px;
-  background-image: url("/img/Group.svg");
+  background-image: url("/img/Group1.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
