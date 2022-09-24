@@ -117,28 +117,19 @@
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
 }
 
 .workline {
   width: 327px;
-  height: 0;
   border: 1px solid #212121;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-.work {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px 24px 0 24px;
-  gap: 24px;
-  width: 375px;
-  height: 3028px;
-}
+
 
 .workone {
   display: flex;
@@ -153,12 +144,12 @@
 
 .workphoto {
   padding: var(--padding-work);
+  padding-top: 30px;
 }
 
 .first-Rwork {
   padding: var(--padding-work);
-  height: 1px;
-  bottom: 1em;
+  margin: 20px 0;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -173,6 +164,7 @@
 .work-dicreption {
   padding: var(--padding-work);
   justify-content: center;
+  margin-top: 0;
   margin-bottom: 1em;
   flex: none;
   order: 1;
@@ -206,21 +198,26 @@
   grid-template-rows: 6fr 6fr 6fr 6fr 6fr 6fr;
   justify-content: space-evenly;
   row-gap: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .worktwo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  /* align-items: center; */
   height: 350px;
-  width: 50;
-  left: 0;
-  top: 0;
   border-radius: 0;
   background: url(/img/Img\ Placeholder1.svg);
   gap: 10px;
   background-repeat: no-repeat;
-  background-position: 1.5em;
+  background-size: cover;
+  margin-bottom: 0;
+  margin-top: 50px;
 }
 
 .work-two-title {
@@ -228,13 +225,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 44px;
   padding-left: 20px;
-  padding-top: 25px;
+  padding-top: 20px;
   color: #fff;
   flex: none;
   order: 0;
-  margin: 45px 20px 0 15px;
+  margin: 30px 20px 0 15px;
 }
 
 .work-two-dis {
@@ -315,35 +311,34 @@
 }
 
 .see-two {
+  text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 19px;
   line-height: 24px;
   color: #fff;
-  height: 15px;
-  padding: 12px;
-  gap: 10px;
-  text-align: center;
-  margin-top: 0;
-  margin-right: 0;
+  border: none;
   order: 3;
   background-color: #ff6b00;
 }
 
 .see-two:hover {
-  background-color: #fff;
+  color: blue;
 }
 
 .see-two-box {
-  margin-top: 0;
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 0;
   margin-right: 0;
   order: 3;
   background-color: #ff6b00;
-  width: 327px;
-  height: px;
-  left: 0;
-  top: 0;
+  width: 350px;
+  height: 90px;
+  background-size: cover;
 }
 
 .aboutmyself {
