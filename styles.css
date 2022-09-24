@@ -182,13 +182,43 @@
   flex-grow: 0;
 }
 
-.see-project {
-  padding: var(--padding-work);
+.see-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 105px;
+  height: 48px;
+  margin-left: 25px;
+  background: #ff6b00;
   flex: none;
   order: 3;
   flex-grow: 0;
-  width: 124px;
-  height: 48px;
+}
+
+.see-project {
+  text-decoration: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #ff6b00;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.see-project:hover {
+  color: blue;
 }
 
 .diffrent-work {
@@ -206,11 +236,9 @@
 .worktwo {
   display: flex;
   flex-direction: column;
-
-  /* align-items: center; */
   height: 350px;
   border-radius: 0;
-  background: url(/img/Img\ Placeholder1.svg);
+  background: url("/img/Img\ Placeholder1.svg");
   gap: 10px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -349,7 +377,7 @@
   align-items: flex-start;
   padding: 120px 24px;
   gap: 24px;
-  background-image: url(/img/Group.svg);
+  background-image: url("/img/Group.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -365,6 +393,8 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .aboutmescript {
