@@ -1,49 +1,47 @@
 :root {
+  --padding-work: 0 24px 0 24px;
   --white-color: white;
 }
 
 .body {
-  background-color: #1c1a19;
+  padding: 0;
   margin: 0;
 }
 
 .header {
-  padding: 0.5em;
   background-color: #3c3a39;
-  position: fixed;
-  width: 99%;
-  height: 52px;
+  width: 100%;
+  height: 56px;
 }
 
 .container {
+  position: fixed;
+  height: 55px;
   display: flex;
   place-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #3c3a39;
 }
 
 .name {
   text-decoration: none;
-  position: relative;
-  right: 10px;
   color: var(--white-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
   height: 24px;
-  padding: 1em;
+  padding-left: 15px;
 }
 
 .toolbar {
-  position: relative;
-  padding: 1.4em;
-  width: 68px;
-  height: 12px;
-  left: 20px;
-  top: 2px;
+  padding-right: 15px;
 }
 
 .headline {
-  padding: 120px 24px;
+  background-color: #1c1a19;
+  padding: 100px 24px 150px;
   background-image: url("img/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -64,11 +62,12 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
 }
 
 .headlinescript {
-  position: relative;
   bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -84,6 +83,7 @@
 }
 
 .socialmediaicons {
+  font-size: 20px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -92,7 +92,6 @@
   place-content: space-between;
 }
 
-
 .work-section {
   margin: 0;
   background-color: var(--white-color);
@@ -100,16 +99,249 @@
 
 .RWbox {
   display: flex;
-flex-direction: column;
-align-items: center;
-width: 327px;
-height: 250px;
-padding: 0px;
-gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
 }
 
-.Rwork {
+.RWork {
   display: flex;
- align-items: center;
- 
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: 107px;
+  height: 83px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.workline {
+  width: 327px;
+  height: 0;
+  border: 1px solid #212121;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 24px 0 24px;
+  gap: 24px;
+  width: 375px;
+  height: 3028px;
+}
+
+.workone {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: var(--padding-work);
+  height: 568px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.workphoto {
+  padding: var(--padding-work);
+}
+
+.first-Rwork {
+  padding: var(--padding-work);
+  height: 1px;
+  bottom: 1em;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.work-dicreption {
+  padding: var(--padding-work);
+  justify-content: center;
+  margin-bottom: 1em;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.languages-Fwork {
+  display: flex;
+  margin-bottom: 1em;
+  padding: var(--padding-work);
+  order: 2;
+  flex-grow: 0;
+}
+
+.see-project {
+  padding: var(--padding-work);
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  width: 124px;
+  height: 48px;
+}
+
+.diffrent-work {
+  display: grid;
+  grid-template-rows: 6fr 6fr 6fr 6fr 6fr 6fr;
+  justify-content: space-evenly;
+  row-gap: 50px;
+}
+
+.worktwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 22px 0 22px;
+  height: 350px;
+  width: 50;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  background: url(/img/Img\ Placeholder\ \(1\).svg);
+  gap: 10px;
+  background-repeat: no-repeat;
+  background-position: 1.5em;
+}
+
+.work-two-title {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  vertical-align: text-top;
+  color: #fff;
+  flex: none;
+  order: 0;
+  margin: 45px 20px 0 15px;
+}
+
+.work-two-dis {
+  font-family: 'Inter', sans-serif;
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.languages-work {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 236px;
+  height: 40px;
+  margin-bottom: 0;
+  margin-right: 70px;
+  margin-top: 0;
+  list-style-type: none;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.code-name {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+  color: #fff;
+}
+
+.html-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.bootstrap-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.24);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.ruby-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.24);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.see-two {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #fff;
+  height: 15px;
+  padding: 12px;
+  gap: 10px;
+  text-align: center;
+  margin-top: 0;
+  margin-right: 0;
+  order: 3;
+  background-color: #ff6b00;
+}
+
+.see-two-box {
+  margin-top: 0;
+  margin-right: 0;
+  order: 3;
+  background-color: #ff6b00;
+  width: 327px;
+  height: px;
+  left: 0;
+  top: 0;
 }
