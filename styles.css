@@ -510,3 +510,113 @@
   order: 0;
   flex-grow: 0;
 }
+
+/* contact form */
+
+.footer {
+  background-color: white;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 120px 24px;
+gap: 58px;
+}
+
+.form {display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  }
+
+
+.footer-intro {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.ul-form {
+  list-style-type: none;
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+border: none;
+margin: 0;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.ul-form input {
+  border: none;
+border-bottom:1px solid;
+width: 100%;
+
+}
+.ul-form label {
+  display: none;
+}
+
+.ul-form textarea {
+  border: none;
+  color: #979493;
+  width: 100%;
+}
+
+.form-name {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+padding-left: 20px;
+display: flex;
+align-items: center;
+
+/* Theme 3 / Neutral 6 */
+
+color: #979493;
+
+}
+
+.form-Email {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+padding-left: 20px;
+display: flex;
+align-items: center;
+
+/* Theme 3 / Neutral 6 */
+
+color: #979493;
+}
+
+.input-textarea{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+display: flex;
+align-items: center;
+
+/* Theme 3 / Neutral 2 */
+
+color: #3C3A39;
+}
