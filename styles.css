@@ -516,145 +516,153 @@
 .footer {
   background-color: white;
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 120px 24px;
-gap: 58px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
-  }
-
+}
 
 .footer-intro {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-color: #172B4D;
-flex: none;
-order: 0;
-flex-grow: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .ul-form {
   list-style-type: none;
   display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 24px;
-border: none;
-margin: 0;
-flex: none;
-order: 1;
-flex-grow: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 25px;
+  border: none;
+  margin: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .ul-form input {
   border: none;
-border-bottom:1px solid;
-width: 100%;
-
+  border-bottom: 1px solid;
+  width: 100%;
 }
+
 .ul-form label {
   display: none;
 }
 
-.ul-form textarea {
-  border: none;
-  color: #979493;
-  width: 100%;
-}
-
 .form-name {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-/* or 160% */
-padding-left: 20px;
-display: flex;
-align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 
-/* Theme 3 / Neutral 6 */
+  /* or 160% */
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 
-color: #979493;
+  /* Theme 3 / Neutral 6 */
 
+  color: #979493;
 }
 
 .form-Email {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-/* or 160% */
-padding-left: 20px;
-display: flex;
-align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 
-/* Theme 3 / Neutral 6 */
+  /* or 160% */
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 
-color: #979493;
+  /* Theme 3 / Neutral 6 */
+
+  color: #979493;
 }
 
-.input-textarea{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-/* or 160% */
-display: flex;
-align-items: center;
-height: 114px;
-width: 400px;
-/* Theme 3 / Neutral 2 */
+.textarea-box {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 
-color: #3C3A39;
+  /* or 160% */
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+
+  /* Theme 3 / Neutral 6 */
+
+  color: #979493;
 }
 
-.submit-form{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-background: #FF6B00;
-flex: none;
-order: 3;
-flex-grow: 0;
-border:none;
-color:white;
-width: 131px;
-height: 48px;
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
+textarea {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 20px;
+  height: 114px;
+  padding-right: 50px;
+  border: none;
+  color: #3c3a39;
 }
-.form-bar{
-  border-top: 1px solid #DFE1E6;
+
+.submit-form {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+  color: white;
+  width: 131px;
+  height: 48px;
+  flex-direction: row;
+  padding: 12px;
+  gap: 10px;
 }
-.socialmediaicons-form{
+
+.form-bar {
+  border-top: 3px solid #dfe1e6;
+}
+
+.socialmediaicons-form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  padding:0px 35px 0px 35px;
+  padding: 0 35px 0 35px;
   font-size: 1.5em;
 }
