@@ -522,7 +522,8 @@ padding: 120px 24px;
 gap: 58px;
 }
 
-.form {display: flex;
+.form {
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
@@ -615,8 +616,45 @@ line-height: 24px;
 /* or 160% */
 display: flex;
 align-items: center;
-
+height: 114px;
+width: 400px;
 /* Theme 3 / Neutral 2 */
 
 color: #3C3A39;
+}
+
+.submit-form{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+background: #FF6B00;
+flex: none;
+order: 3;
+flex-grow: 0;
+border:none;
+color:white;
+width: 131px;
+height: 48px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+}
+.form-bar{
+  border-top: 1px solid #DFE1E6;
+}
+.socialmediaicons-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding:0px 35px 0px 35px;
+  font-size: 1.5em;
 }
