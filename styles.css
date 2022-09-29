@@ -3,6 +3,10 @@
   --white-color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .body {
   padding: 0;
   margin: 0;
@@ -727,6 +731,10 @@ button:active {
 /* /////// display disktop media query ////////// */
 
 @media (min-width: 768px) {
+  a {
+    text-decoration: none;
+  }
+
   .container {
     position: fixed;
     height: 100px;
