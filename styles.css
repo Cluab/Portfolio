@@ -430,11 +430,26 @@ img {
   flex-grow: 0;
 }
 
-.resume {
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
+ 
+  .resume {
+    text-decoration: none;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #ff6b00;
+  color: white;
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+order: 2;
+width: 161px;
+height: 48px;
+  }
 
 .skills {
   border-top: 1px solid #fff;
@@ -1087,8 +1102,23 @@ button:active {
   }
 
   .resume {
-    width: 161px;
-    height: 48px;
+    text-decoration: none;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #ff6b00;
+  color: white;
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
+width: 161px;
+height: 48px;
   }
 
   .skills {
@@ -1123,13 +1153,18 @@ button:active {
   }
 
   .footer-intro {
-    width: 40%;
-    height: 256px;
-    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    max-width: 450px;
+  max-height: 256px;
+   font-size: 40px;
     line-height: 52px;
     color: #262626;
     max-width: 455px;
     margin-top: 0;
+    text-align: left;
+
   }
 
   .form {
