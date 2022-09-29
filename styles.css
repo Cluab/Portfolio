@@ -929,14 +929,15 @@ textarea {
   }
 
   .see-project {
-    padding-left: 10px;
+    /* padding-left: 10px; */
     height: 48px;
     width: 124px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 24px;
+    margin-left: 0;
   }
 
   .diffrent-work {
