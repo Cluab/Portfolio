@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .header {
   background-color: #3c3a39;
   width: 100%;
@@ -679,7 +683,11 @@ textarea {
 }
 
 .insta {
-  color: #bdafaa;
+  color: #000000;
+}
+
+.aboutme-img {
+  display: none;
 }
 /* /////// display disktop media query ////////// */
 
@@ -869,15 +877,19 @@ flex: 0 1 auto;
 .workone {
   display: flex;
   flex-direction: row;
+  width: 1155;
+  height: 448px;
+  margin: 20px auto;
   padding: 0;
+  margin-bottom: 0;
 }
 
 
 .workphoto {
 padding: 0;
 order: 0;
-width: 50%;
-height: auto;
+width: 684px;
+height: 448px;
 }
 
 
@@ -886,8 +898,8 @@ height: auto;
   order: 1;
   font-size: 20px;
 line-height: 28px;
-padding-bottom: 50px;
-width: 30%;
+padding-bottom: 0px;
+width: 448px;
 padding-left: 24px;
 }
 
@@ -924,17 +936,19 @@ line-height: 24px;
 
 .diffrent-work {
   display: grid;
-  height: 861px;
+  max-height: 861px;
   grid-template-rows: none;
   grid-template-columns: 3fr 3fr 3fr;
   justify-content: space-around;
   column-gap: 24px;
-  padding-top: 24px;
+  row-gap: 35px;
+  /* padding-top: 24px;
   padding-left: 180px;
-  padding-right: 180px;
-  margin-top: 0px;
-  margin-bottom: 0;
+  padding-right: 180px; */
+  margin: 0 auto;
   padding-bottom:20px ;
+  width: 400px;
+  max-width: 1155px;
 }
 .worktwo {
   display: flex;
@@ -1030,4 +1044,135 @@ width: 369px;
 }
 
 
+.aboutme {
+  background-image: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  padding-right: 0;
+}
+
+
+.aboutmescript-box {
+  /* width: 30%; */
+  max-width: 466px;
+  gap: 24px;
+
+   padding-left: 142px;
+}
+
+.aboutme-img {
+  display: flex;
+  order: 1;
+ max-width:672.39px ;
+
+}
+
+.aboutmeintro {
+  font-size: 72px;
+line-height: 82px;
+}
+
+.aboutmescript {
+  font-size: 20px;
+line-height: 32px;
+max-width:566px;
+/* max-Height:148px; */
+}
+
+
+.resume {
+  width: 161px;
+height: 48px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+ padding-left: 141px;
+ padding-right: 141px;
+ height: 596px;
+ padding-top: 138px;
+}
+
+
+.languages-box-min {
+  font-size: 325x;
+line-height: 44px;
+}
+
+
+.lanhub {
+  font-size: 25px;
+  line-height: 43px;
+  padding-top: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+height: 450px;
+margin: 0;
+padding-left: 0;
+padding-bottom: 0;
+}
+
+.footer-intro {
+  width: 40%;
+height: 256px;
+font-size: 40px;
+line-height: 52px;
+color: #262626;
+}
+
+.form {
+  width: 40%;
+height: 330px;
+align-items: flex-start;
+}
+
+.ul-form {
+  /* width: 660px; */
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-name {
+  
+  align-items: flex-start;
+}
+input[type=text], select {
+  width: 200%;}
+
+
+  input[type=email], select {
+    width: 200%;}
+  
+.textarea-box {
+  padding:0;
+}
+.input-textarea {
+  padding-left: 19px;
+}
+
+.form-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px;
+padding-bottom: 26px;
+}
+
+.socialmediaicons-footer {
+  margin: 0;
+  flex-direction: row;
+  gap: 21px;
+  font-size: 22px;
+  list-style-type: none;
+  display: flex;
+  place-content: space-between;
+}
 }
