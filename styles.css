@@ -236,10 +236,6 @@ img {
   flex-grow: 0;
 }
 
-.see-project:hover {
-  color: blue;
-}
-
 .diffrent-work {
   display: grid;
   grid-template-rows: 6fr 6fr 6fr 6fr 6fr 6fr;
@@ -378,15 +374,11 @@ img {
   background-color: #ff6b00;
 }
 
-.see-two:hover {
-  color: blue;
-}
-
 .see-two-box {
   flex-direction: row-reverse;
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   margin-bottom: 0;
   margin-right: 0;
   order: 3;
@@ -706,6 +698,18 @@ textarea {
   display: none;
 }
 
+button:hover,
+button:focus {
+  background-color: #fff;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+button:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
 /* /////// display disktop media query ////////// */
 
 @media (min-width: 768px) {
@@ -965,7 +969,7 @@ textarea {
   .two-disktop {
     display: flex;
     flex-direction: column;
-    background: url("/img/img-worktwo.svg");
+    background-image: url("/img/img-worktwo.svg");
     height: 435px;
     width: 369px;
   }
@@ -977,6 +981,7 @@ textarea {
   .see-two-box {
     height: 15%;
     width: 100%;
+    align-items: center;
   }
 
   .workthree {
@@ -1117,6 +1122,8 @@ textarea {
     font-size: 40px;
     line-height: 52px;
     color: #262626;
+    max-width: 455px;
+    margin-top: 0;
   }
 
   .form {
