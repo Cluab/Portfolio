@@ -225,8 +225,10 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: white;
-  padding: 0;
-  flex: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 25px;
+  height: 40px;
   order: 0;
   flex-grow: 0;
 }
@@ -241,10 +243,14 @@ img {
   justify-content: space-evenly;
   row-gap: 50px;
   padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 40px;
+  height: 2580px;
+  width: 305px;
+  border-radius: 0px;
+  justify-content: center;
+ margin-right: 9;
+ margin-left: 9%;
   margin-bottom: 0;
+ 
 }
 
 .worktwo {
@@ -252,7 +258,8 @@ img {
   flex-direction: column;
   height: 350px;
   border-radius: 0;
-  background: url("/img/Placeholder1.svg");
+  background-image: url("/img/Placeholder1.svg");
+ justify-content:flex-end;
   gap: 10px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -260,17 +267,22 @@ img {
   margin-top: 50px;
 }
 
+.work-box-two {
+  margin-left: 16px;
+}
+
 .work-two-title {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  padding-left: 20px;
-  padding-top: 20px;
+  /* padding-left: 20px;
+  padding-top: 20px; */
   color: #fff;
   flex: none;
   order: 0;
-  margin: 30px 20px 0 15px;
+  margin: 0;
+  /* margin: 30px 20px 0 15px; */
 }
 
 .work-two-dis {
@@ -280,14 +292,12 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 20px;
   color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-right: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
+
+  margin: 0;
 }
 
 .languages-work {
@@ -377,7 +387,7 @@ img {
   order: 3;
   background-color: #ff6b00;
   width: 350px;
-  height: 90px;
+  height: 50px;
   background-size: cover;
 }
 
@@ -569,6 +579,7 @@ img {
   flex: none;
   order: 1;
   flex-grow: 0;
+  max-width: 327px;
 }
 
 .ul-form input {
@@ -673,19 +684,18 @@ textarea {
   border-top: 3px solid #dfe1e6;
 }
 
-.socialmediaicons-form {
+.socialmediaicons-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
   padding: 0 35px 0 35px;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .insta {
-  color: #000000;
+  color: #756a66;
 }
-
 .aboutme-img {
   display: none;
 }
@@ -812,7 +822,7 @@ order: 1;
  margin-top: 0; 
 }
 .insta {
-  color: #bdafaa;
+  color: #756a66;
 }
 
 .headlineintro {
@@ -936,12 +946,12 @@ line-height: 24px;
 
 .diffrent-work {
   display: grid;
-  max-height: 861px;
+  max-height: 900px;
   grid-template-rows: none;
   grid-template-columns: 3fr 3fr 3fr;
   justify-content: space-around;
   column-gap: 24px;
-  row-gap: 35px;
+  row-gap: 0px;
   /* padding-top: 24px;
   padding-left: 180px;
   padding-right: 180px; */
@@ -951,21 +961,16 @@ line-height: 24px;
   max-width: 1155px;
 }
 .worktwo {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 435px;
-width: 369px;
-
-
-  border-radius: 0;
-  background: url("/img/img-worktwo.svg");
-  gap: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 0;
-  margin-top: 0px;
+  display: none;
 }
+  .two-disktop{
+    display: flex;
+    flex-direction: column;
+    background: url("/img/img-worktwo.svg");
+    height: 435px;
+    width: 369px;
+  }
+
 .work-box-two {
   display: none;
 }
@@ -1157,7 +1162,10 @@ input[type=text], select {
 .input-textarea {
   padding-left: 19px;
 }
-
+textarea {
+  width: 410px;
+  height: 150px;
+}
 .form-bar {
   display: flex;
   flex-direction: row;
