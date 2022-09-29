@@ -931,11 +931,11 @@ button:active {
   .languages-Fwork {
     padding: 0%;
   }
-img:hover {
-  transform: scale(1.1);
-  transition: all .4s ease;
-}
 
+  img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+  }
 
   .see-project {
     /* padding-left: 10px; */
@@ -1034,7 +1034,6 @@ img:hover {
     line-height: 24px;
     margin: 0;
     color: #fff;
-
   }
 
   .workfour {
@@ -1193,6 +1192,7 @@ img:hover {
   .cards:hover .work-box-two {
     display: none;
   }
+
   /* .cards:hover{
   display: contents;
 }
@@ -1201,12 +1201,11 @@ img:hover {
   display: contents;
 } */
 
-.cards:hover .see-three-box{
-  display:block;
+  .cards:hover .see-three-box {
+    display: block;
+  }
 
-}
-
-.cards:hover {
-  background: url("/img/img-worktwo.svg");
-}
+  .cards:hover {
+    background: url("/img/img-worktwo.svg");
+  }
 }
