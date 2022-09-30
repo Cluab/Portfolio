@@ -1021,6 +1021,7 @@ button:active {
 
   .see-three-box {
     display: none;
+    transition: display 10s;
   }
 
   .work-box-three {
@@ -1232,13 +1233,9 @@ button:active {
     display: none;
   }
 
-.cards {
-  transition: 1s ;
-}
-
-.see-three-box {
-  transition: display 10s;
-}
+  .cards {
+    transition: 1s;
+  }
 
   .cards:hover .see-three-box {
     display: flex;
