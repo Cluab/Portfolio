@@ -1232,16 +1232,16 @@ button:active {
     display: none;
   }
 
-  /* .cards:hover{
-  display: contents;
+.cards {
+  transition: 1s ;
 }
 
-.see-three-box:hover {
-  display: contents;
-} */
+.see-three-box {
+  transition: display 10s;
+}
 
   .cards:hover .see-three-box {
-    display: block;
+    display: flex;
   }
 
   .cards:hover {
