@@ -13,7 +13,7 @@
 - Frameworks(NONE)
 - Technologies used(GIT, GITHUB, VSCODE)
 
-## Live Demo (if available)
+## Live Demo
 
 Vist Live Demo Link (https://cluab.github.io/Portfolio/)
 
