@@ -13,10 +13,9 @@
 - Frameworks(NONE)
 - Technologies used(GIT, GITHUB, VSCODE)
 
-## Live Demo (if available)
+## Live Demo
 
-step 1 ( locate the html docement )
-step 2 (open it with your search engine)
+Vist Live Demo Link (https://cluab.github.io/Portfolio/)
 
 
 ## Authors

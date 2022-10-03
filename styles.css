@@ -261,7 +261,7 @@ img {
   flex-direction: column;
   height: 350px;
   border-radius: 0;
-  background-image: url("/img/Placeholder1.svg");
+  background-image: url("img/Placeholder1.svg");
   justify-content: flex-end;
   gap: 10px;
   background-repeat: no-repeat;
@@ -402,7 +402,7 @@ img {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 24px;
-  background-image: url("/img/Group1.svg");
+  background-image: url("img/Group1.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -996,7 +996,7 @@ button:active {
   .two-disktop {
     display: flex;
     flex-direction: column;
-    background-image: url("/img/img-worktwo.svg");
+    background-image: url("img/img-worktwo.svg");
     height: 435px;
     width: 369px;
   }
@@ -1014,7 +1014,7 @@ button:active {
   .workthree {
     display: flex;
     flex-direction: column;
-    background-image: url("/img/img-workthree.svg");
+    background-image: url("img/img-workthree.svg");
     height: 435px;
     width: 369px;
   }
@@ -1062,7 +1062,7 @@ button:active {
   .workfour {
     display: flex;
     flex-direction: column;
-    background-image: url("/img/img-workthree.svg");
+    background-image: url("img/img-workthree.svg");
     height: 435px;
     width: 369px;
   }
@@ -1072,7 +1072,7 @@ button:active {
     width: 369px;
     display: flex;
     flex-direction: column;
-    background-image: url("/img/img-work-c.svg");
+    background-image: url("img/img-work-c.svg");
   }
 
   .aboutme {
@@ -1242,6 +1242,6 @@ button:active {
   }
 
   .cards:hover {
-    background: url("/img/img-worktwo.svg");
+    background: url("img/img-worktwo.svg");
   }
 }
