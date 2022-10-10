@@ -30,6 +30,13 @@ Vist Live Demo Link (https://cluab.github.io/Portfolio/)
 👤 **Author2**
 _Githhub:[@bertinkambale](http://github.com/bertin)
 
+
+👤 **Author3**
+
+- GitHub: [@telanet](https://github.com/telanet)
+
+- Twitter: [@Ben54647605](https://twitter.com/Ben54647605)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
