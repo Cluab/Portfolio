@@ -48,12 +48,14 @@ img {
   background: #3C3A39;
   width: 89.4%;
   height: 85%;
+  font-size: 32px;
   
   transition: 0.3s;
   list-style: none;
 }
 .nav-link {
   color: white;
+  borderline-bottom" 1px solid #6F6C6B;
 }
 
 .nav-mail {
