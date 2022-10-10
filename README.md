@@ -36,6 +36,12 @@ _Githhub:[@bertinkambale](http://github.com/bertin)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/karangwa-mutesi-hope)
 
 
+👤 **Author4**
+
+- GitHub: [@telanet](https://github.com/telanet)
+
+- Twitter: [@Ben54647605](https://twitter.com/Ben54647605)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

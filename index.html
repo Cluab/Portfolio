@@ -19,12 +19,18 @@
       <a class="name" href="https://github.com/Cluab">Ibrahim Al-Yousefi</a>
     </div>
     <nav>
-      <img class="toolbar"src="img/Union.svg" alt="side-bar">
+      <!-- <img class="toolbar"src="img/Union.svg" alt="bar"> -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+     </div>
       <ul class="ul-nav">
-     <li><a class="li-nav" href="index.html">Portoflio</a></li> 
-     <li><a class="li-nav" href="">About</a></li>
-     <li><a class="li-nav" href="">Contact</a></li>
-     <li><img class="nav-mail" src="img/mail.png" alt="contact mail"></li>
+     <li class="nav-li"><a class="nav-link li-nav" href="index.html">Portfolio</a></li> 
+     <li class="nav-li"><a class="li-nav nav-link" href="#about">About</a></li>
+
+     <li class="nav-li"><a class="li-nav nav-link" href="#contact">Contact</a></li>
+     <li><img class="nav-mail" src="img/mail.png" alt="a mail image"></li>
      </ul>
     </nav>
     </div>
@@ -151,7 +157,7 @@
   </section>
 
   
-    <section class="aboutmyself">
+    <section class="aboutmyself" id="about">
 
       <div class="aboutme">
         <div class="aboutmescript-box">
@@ -210,7 +216,7 @@
 
     </section>
     
-      <div class="footer">
+      <div class="footer" id="contact">
         <h2 class="footer-intro">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
       <form class="form"action="https://formspree.io/f/mjvzwzlb" method="post">    
         <ul class="ul-form">
@@ -250,5 +256,6 @@
         </ul>
       </div>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
