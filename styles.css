@@ -72,10 +72,12 @@ img {
     flex-direction: column;
     background: #3c3a39;
     width: 89.4%;
-    height: 80%;
-    font-size: 32px;
+    height: 100vh;
+    font-size: 31px;
     transition: 0.3s;
     list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
   }
 
   .nav-li {
@@ -85,7 +87,7 @@ img {
 
   .nav-link {
     color: white;
-    margin-right: 20px;
+    margin-left: 20px;
     width: 80%;
   }
 
