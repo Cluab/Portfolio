@@ -21,9 +21,13 @@ img {
   width: 100%;
   height: 56px;
 }
-
+@media (max-width: 768px){
 .hamburger{
   cursor: pointer;
+}
+.hamburger.active {
+  width: 40px;
+  height: 20px;
 }
 
 .hamburger.active .bar:nth-child(2){
@@ -32,33 +36,47 @@ img {
 .hamburger.active .bar:nth-child(1){
   transform: translateY(8px) rotate(45deg);
   background-color:#67798E;
+  
 }
 .hamburger.active .bar:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
   background-color: #67798E;
+  
+ 
 }
 
+span.bars.active {
+  width: 10px;
+  height: 10px;
+}
 .ul-nav {
   position: fixed;
   left: -100%;
   display: flex;
-  top: 40px;
+  top: 10px;
+  padding-top: 20px;
   gap: 24px;
   flex-direction: column;
   background: #3C3A39;
   width: 89.4%;
-  height: 85%;
-  
+  height: 80%;
+  font-size: 32px;
   transition: 0.3s;
   list-style: none;
 }
+.nav-li {
+  border-bottom: solid 1px #6F6C6B;
+  width: 90%;
+}
 .nav-link {
   color: white;
+  margin-right: 20px;
+  width: 80%;
 }
 
-.nav-mail {
-  display: none;
-}
+
+
+
 .ul-nav.active{
   left: 0;
 }
@@ -72,7 +90,8 @@ img {
   transition: all 0.3s ease;
   background-color: white;
 }
-
+.nav-mail {
+  display: none;}
 
 .container {
   position: fixed;
@@ -97,7 +116,7 @@ img {
 .name.active {
   display: none;
 }
-
+}
 
 .toolbar {
   padding-right: 15px;
