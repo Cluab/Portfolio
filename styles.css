@@ -844,6 +844,12 @@ margin-bottom:0 ;
 color: #172B4D;
 margin-top: 20px;
   }
+  .popup-title-2 {
+    display:none;
+  }
+  .lorem-1 {
+    display:none;
+  }
   .close-button {
     margin-top: 20px;
     border: none;
@@ -870,7 +876,8 @@ padding: 10px;
   }
 
   .popup-image {
-    height: 160px;
+    height: 165px;
+    width:100vw
   }
 .lorem {
   margin-top: 0;
