@@ -47,8 +47,10 @@ popup.innerHTML = `
    <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
     but also the leap into electronic typesetting, remaining essent</p>
-    <div class="popuplinks"><button class="live">See Live<img src="/img/Icon.png" alt="icon-image"></button>
-    <button class="live">See Source<img src="/img/Vector.png" alt="github-icon"></button></div>
+    <div class="popuplinks"><a href="https://cluab.github.io/Portfolio/">
+    <button class="live">See Live<img src="/img/Icon.png" alt="icon-image"></button></a>
+    <a href="https://github.com/Cluab/Portfolio">
+    <button class="live">See Source<img src="/img/Vector.png" alt="github-icon"></button></a></div>
     </div>
     </div></div>      
 `
