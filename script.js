@@ -2,8 +2,8 @@ const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.ul-nav');
 const logo = document.querySelector('.name');
 const bars = document.querySelector('.bars');
-const project = document.querySelector('.work-section') 
-const body = document.querySelector('body')
+const project = document.querySelector('.work-section');
+const body = document.querySelector('body');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -18,12 +18,12 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   logo.classList.remove('active');
 }));
 
-project.addEventListener( 'click', () => {
-const main = document.createElement('div');
-main.className = 'main-popup'
-const popup = document.createElement('div');
-popup.className = 'popup'
-popup.innerHTML = `
+project.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main-popup';
+  const popup = document.createElement('div');
+  popup.className = 'popup';
+  popup.innerHTML = `
 <div class="popup-menu">
 <div class="popup-header">
 <h2 class="popup-title">Multi Post Stories</h2>
@@ -53,24 +53,17 @@ popup.innerHTML = `
     <button class="live">See Source<img src="/img/Vector.png" alt="github-icon"></button></a></div>
     </div>
     </div></div>      
-`
+`;
 
-main.appendChild(popup)
-body.appendChild(main)
+  main.appendChild(popup);
+  body.appendChild(main);
 
-const close = document.querySelector('.close-button')
-const closebtn = document.querySelector('.popuplinks')
-close.addEventListener('click',()=>{
-  body.removeChild(main)
-})
-closebtn.addEventListener('click',()=>{
-  body.removeChild(main)
-})
-
-
+  const close = document.querySelector('.close-button');
+  const closebtn = document.querySelector('.popuplinks');
+  close.addEventListener('click', () => {
+    body.removeChild(main);
+  });
+  closebtn.addEventListener('click', () => {
+    body.removeChild(main);
+  });
 });
-
-
-
-
-
