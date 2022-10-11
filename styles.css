@@ -1004,7 +1004,10 @@ padding: 10px;
     flex-direction: column;
     justify-content: space-between;
   }
-.lorem {
+  .lorem {
+    display: none;
+  }
+.lorem-1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
