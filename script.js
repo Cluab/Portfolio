@@ -61,9 +61,9 @@ function popup() {
      <p class="lorem">${workcardpop.description[0]}</p>
    <p class="lorem-1">${workcardpop.description[1]}</p>
     <div class="popuplinks"><a href="${workcardpop.Llive}">
-    <button class="live">See Live<img src="/img/Icon.png" alt="icon-image"></button></a>
+    <button class="live">See Live<img src="img/Icon.png" alt="icon-image"></button></a>
     <a href="${workcardpop.Lsource}">
-    <button class="live">See Source<img src="/img/Vector.png" alt="github-icon"></button></a></div>
+    <button class="live">See Source<img src="img/Vector.png" alt="github-icon"></button></a></div>
     </div>
     </div></div>      
 `;
