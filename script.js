@@ -29,17 +29,19 @@ project.addEventListener('click', () => {
 
 popup.innerHTML = `
 <div class="popup-menu">
-<div class="popup-header">
-<h2 class="popup-title">${workcardpop.name[0]}</h2>
-<h2 class="popup-title-2">${workcardpop.name[1]}</h2>
-<button class="close-button">&times;</button>
-</div>
-<div class="popup-languages">
-<ul class="languages-work">
+  <div class="popgap">
+        <div class="popup-header">
+           <h2 class="popup-title">${workcardpop.name[0]}</h2>
+           <h2 class="popup-title-2">${workcardpop.name[1]}</h2>
+           <button class="close-button">&times;</button>
+        </div>
+        <div class="popup-languages">
+        <ul class="languages-work">
                 <li class=" popup-lan-box"><p class="code-name pop-name">${workcardpop.technologies[0]}</li>
                 <li class=" popup-lan-box"><p class="code-name pop-name">${workcardpop.technologies[1]}</p></li>
                 <li class=" popup-lan-box"><p class="code-name pop-name">${workcardpop.technologies[2]}</p></li>
-              </ul>
+        </ul>
+ </div>
    </div>
    <div class ="desktop-popup">
    <img class='popup-image' src="img/Snapshoot Portfolio.png" alt="popup work preview">

@@ -816,7 +816,7 @@ button:active {
   .popup {
     margin: 6% 5%;
     margin-bottom: 10%;
-    height: 90vh;
+    height: 87vh;
     background-color: #fff;
     padding: 10px;
   }
@@ -877,6 +877,12 @@ button:active {
   .popup-image {
     height: 165px;
     width: 100vw;
+  }
+
+  .popgap {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
   }
 
   .lorem {
@@ -1194,7 +1200,7 @@ button:active {
 
     /* align-items: center; */
     margin: 0;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 52px;
   }
 
