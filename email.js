@@ -21,6 +21,14 @@ const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const textareaInput = document.getElementById('message');
 
+var forminfo = JSON.parse(localStorage.getItem("forminfo"));
+
+
+if (forminfo){
+nameInput.value = forminfo.name;
+emailInput.value = forminfo.email;
+textareaInput.value = forminfo.textarea;
+}
 
 function storetext() {
   const name = nameInput.value;
