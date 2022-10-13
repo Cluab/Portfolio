@@ -669,6 +669,11 @@ textarea {
   padding: 12px;
   gap: 10px;
 }
+#hiddenBtn {
+  display: none;
+}
+#error {
+}
 
 .form-bar {
   border-top: 3px solid #dfe1e6;
