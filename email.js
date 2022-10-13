@@ -35,7 +35,7 @@ function storetext() {
   const email = emailInput.value;
   const textarea = textareaInput.value;
 
-  if (!name || !email || !textarea) {
+  if (!name && !email && !textarea) {
     return;
   }
   const forminfo = {
