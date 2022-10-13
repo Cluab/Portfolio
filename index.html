@@ -132,18 +132,19 @@
              maxlength="30"
             type="text"
             name="name"
+            onkeyup="storetext()"
             id="name"
             placeholder="Full name" class="form-name"
             required></li>
           <li><label for="email">email</label><input type="email"
             name="email"
             id="email"
+            onkeyup="storetext()"
             class="form-Email"
             placeholder="Email address"
             required>
           </li>
-          <li class="textarea-box"><label for="textarea">Label for textarea</label><textarea 
-             id="message"
+          <li class="textarea-box"><label for="textarea">Label for textarea</label><textarea onkeyup="storetext()" id="message" 
             class="input-textarea"
             name="message"
             maxlength="500"
@@ -152,7 +153,7 @@
             ></textarea></li>
         </ul>
         <button type="submit"id="hiddenBtn"> Get it touch</button>
-        <button class="submit-form"type="button" onclick="valedateemail()"> Get it touch</button>
+        <button class="submit-form"type="button"onclick="valedateemail()"> Get it touch</button>
         <span id="error"></span>
         </form></div>
 
