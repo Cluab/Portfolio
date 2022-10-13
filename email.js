@@ -17,32 +17,24 @@ function valedateemail() {
   }
 }
 
-var nameInput = document.getElementById("name");
-var emailInput = document.getElementById("email");
-var textareaInput = document.getElementById("message");
-
-var forminfo = JSON.parse(localStorage.getItem("forminfo"));
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const textareaInput = document.getElementById('message');
 
 
-if (forminfo){
-nameInput.value = forminfo.name;
-emailInput.value = forminfo.email;
-textareaInput.value = forminfo.textarea;
-}
 function storetext() {
-  var name = nameInput.value;
-  var email = emailInput.value;
-  var textarea = textareaInput.value;
+  const name = nameInput.value;
+  const email = emailInput.value;
+  const textarea = textareaInput.value;
 
-  if (!name || !email || !textarea){
+  if (!name || !email || !textarea) {
     return;
   }
-var forminfo = {
-  name:name,
-  email:email,
-  textarea:textarea
-}
+  const forminfo = {
+    name,
+    email,
+    textarea,
+  };
 
-localStorage.setItem("forminfo",JSON.stringify(forminfo))
+  localStorage.setItem('forminfo', JSON.stringify(forminfo));
 }
-
