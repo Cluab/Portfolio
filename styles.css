@@ -669,18 +669,19 @@ textarea {
   padding: 12px;
   gap: 10px;
 }
+
 #hiddenBtn {
   display: none;
 }
+
 #error {
   order: 2;
   font-family: 'Inter', sans-serif;
   border-radius: 20px;
   font-style: normal;
   font-weight: 700;
-  font-size:14px;
-  color:rgb(228, 52, 52);
-
+  font-size: 14px;
+  color: rgb(228, 52, 52);
 }
 
 .form-bar {
