@@ -126,7 +126,7 @@
     
       <div class="footer" id="contact">
         <h2 class="footer-intro">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-      <form class="form"action="https://formspree.io/f/mjvzwzlb" method="post">    
+      <form class="form"name="form1"id="form1" method="post" action="https://formspree.io/f/mjvzwzlb">    
         <ul class="ul-form">
           <li><label for="name">name</label><input
              maxlength="30"
@@ -140,7 +140,8 @@
             id="email"
             class="form-Email"
             placeholder="Email address"
-            required></li>
+            required>
+          </li>
           <li class="textarea-box"><label for="textarea">Label for textarea</label><textarea 
              id="message"
             class="input-textarea"
@@ -150,7 +151,9 @@
             required
             ></textarea></li>
         </ul>
-        <button class="submit-form"type="Get in Touch"> Get it touch</button>
+        <button type="submit"id="hiddenBtn"> Get it touch</button>
+        <button class="submit-form"type="button" onclick="valedateemail()"> Get it touch</button>
+        <span id="error"></span>
         </form></div>
 
       <footer>
@@ -166,5 +169,6 @@
     </footer>
     <script src="work.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="email.js"></script>
 </body>
 </html>
