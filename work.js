@@ -4,7 +4,7 @@ const workcard = [
     name: 'Microverse Article',
     description:
       '(the Portal capstone project) this is my first capstone project in module one with Microverse where I created an Article base website that talked about Microverse. Built with JavaScript CSS and html',
-    Fimage: ['/img/id0.png', '/img/id0.png'],
+    Fimage: ['img/id0.png', 'img/id0.png'],
     technologies: ['HTML', 'CSS', 'Javascript'],
     Llive: 'https://cluab.github.io/portal-capstone1/index.html',
     Lsource: 'https://github.com/Cluab/portal-capstone1',
@@ -16,7 +16,7 @@ const workcardtwo = [
     name: '"To-do list"',
     description:
       'A "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to add, edit, delete, and mark them as complete. Built with Es6 and Webpack and added some test cases using jest as its framework',
-    Fimage: ['worksec worktwo cards', '/img/id1.png'],
+    Fimage: ['worksec worktwo cards', 'img/id1.png'],
     technologies: ['Es6', 'Webpack', 'jest'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
