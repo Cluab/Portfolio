@@ -10,7 +10,7 @@ const workcard = [
     Lsource: 'https://github.com/Cluab/portal-capstone1',
   },
 ];
-let workcardtwo = [
+const workcardtwo = [
   {
     id: 1,
     name: '"To-do list"',
@@ -82,7 +82,7 @@ function renderworkcards() {
     <div class="RWbox"><h3 class="RWork">"My Recent works"</h3>
        <div class="workline"></div>
     </div>
-      <div class="workone"><img class="workphoto"src="${workcard.Fimage}" alt="${workcard.name}">
+      <div class="workone"><img class="workphoto"src="${workcard.Fimage[0]}" alt="${workcard.name}">
         <div class="work-dis"><h4 class="first-Rwork">${workcard.name}</h4>
          <p class="work-dicreption">${workcard.description}.</p>
          <ul class="WoneTech">
@@ -119,7 +119,6 @@ function renderworkcardtwo() {
 renderworkcardtwo();
 
 function popup(id) {
-  console.log(id);
   let card;
   if (id / 2 === 0 / 2) {
     card = workcard;
@@ -161,7 +160,7 @@ function popup(id) {
     </div>
     </div></div>      
 `;
-
+      const body = document.querySelector('body');
       main.appendChild(popup);
       body.appendChild(main);
 
@@ -173,7 +172,7 @@ function popup(id) {
       closebtn.addEventListener('click', () => {
         body.removeChild(main);
       });
-    } else return;
+    }
   });
 }
 document.querySelector('.diffrent-work').addEventListener('click', (e) => {
