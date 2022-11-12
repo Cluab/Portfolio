@@ -3,18 +3,19 @@ const workcard = [
     id: 0,
     name: 'Multi-Post Stories',
     description:
-        "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     Fimage: 'img/Img Placeholder.svg',
-    technologies: 'img/Tags.svg',
+    technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
-  }];
+  },
+];
 const workcardtwo = [
   {
     id: 1,
     name: 'Multi-Post Stories',
     description:
-          "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
     Fimage: 'worksec worktwo cards',
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
@@ -24,7 +25,7 @@ const workcardtwo = [
     id: 2,
     name: 'Data Dashboard Healthcare',
     description:
-          "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
     Fimage: 'workthree worktwo cards',
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
@@ -34,7 +35,7 @@ const workcardtwo = [
     id: 3,
     name: 'Multi-Post Stories',
     description:
-          "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
     Fimage: 'workfour worktwo cards',
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
@@ -44,7 +45,7 @@ const workcardtwo = [
     id: 4,
     name: 'Multi-Post Stories',
     description:
-          "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
     Fimage: 'worksec worktwo cards',
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
@@ -54,7 +55,7 @@ const workcardtwo = [
     id: 5,
     name: 'Data Dashboard Healthcare',
     description:
-          "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
     Fimage: 'workthree worktwo cards',
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
@@ -64,7 +65,7 @@ const workcardtwo = [
     id: 6,
     name: 'Multi-Post Stories',
     description:
-          "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
     Fimage: 'workfour worktwo cards',
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
@@ -84,7 +85,11 @@ function renderworkcards() {
       <div class="workone"><img class="workphoto"src="${workcard.Fimage}" alt="${workcard.name}">
         <div class="work-dis"><h4 class="first-Rwork">${workcard.name}</h4>
          <p class="work-dicreption">${workcard.description}.</p>
-         <img class="languages-Fwork" src="${workcard.technologies}" alt="languages used at recent work (css,html,bootstrap,ruby)">
+         <ul class="WoneTech">
+          <li>${workcard.technologies[0]}</li>
+          <li>${workcard.technologies[1]}</li>
+          <li>${workcard.technologies[2]}</li>
+          </ul>
         <button class="see-project" id="see">see project</button>
       </div> </div>
     `;

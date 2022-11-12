@@ -1024,7 +1024,20 @@ button:active {
   .lorem {
     display: none;
   }
-
+.WoneTech{
+  list-style: none;
+  display: flex;
+  flex-direction:row;
+  gap: 20px;
+  padding: 0;
+}
+.WoneTech li {
+ border: 1px solid #172b4d;
+ padding: 10px;
+ font-size: 16px;
+ font-weight: 600;
+ color: #172b4d;
+}
   .lorem-1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
