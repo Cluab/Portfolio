@@ -24,7 +24,7 @@ Vist Live Demo Link (https://cluab.github.io/Portfolio/)
 
 - GitHub: [@cluab](https://github.com/Cluab)
 - Twitter: [@cluab122](https://twitter.com/cluab122)
-- LinkedIn: [Ebrahim Al-Yousefi](https://linkedin.com/in/Ebrahim Al-Yousefi)
+- LinkedIn: [Ebrahim Al-Yousefi](https://www.linkedin.com/in/ebrahim-al-yousefi-207808237)
 - Instagram: [@27.i.b](https://www.instagram.com/27.i.b/)
 
 👤 **Author2**

@@ -19,3 +19,33 @@ function valedateemail() {
     return false;
   }
 }
+
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const textareaInput = document.getElementById('message');
+
+var forminfo = JSON.parse(localStorage.getItem("forminfo"));
+
+
+if (forminfo){
+nameInput.value = forminfo.name;
+emailInput.value = forminfo.email;
+textareaInput.value = forminfo.textarea;
+}
+
+function storetext() {
+  const name = nameInput.value;
+  const email = emailInput.value;
+  const textarea = textareaInput.value;
+
+  if (!name && !email && !textarea) {
+    return;
+  }
+  const forminfo = {
+    name,
+    email,
+    textarea,
+  };
+
+  localStorage.setItem('forminfo', JSON.stringify(forminfo));
+}

@@ -15,3 +15,4 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navMenu.classList.remove('active');
   logo.classList.remove('active');
 }));
+
