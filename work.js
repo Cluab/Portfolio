@@ -4,7 +4,7 @@ const workcard = [
     name: 'Microverse Article',
     description:
       '(the Portal capstone project) this is my first capstone project in module one with Microverse where I created an Article base website that talked about Microverse. Built with JavaScript CSS and html',
-    Fimage: '/img/id0.png',
+    Fimage: ['/img/id0.png', '/img/id0.png'],
     technologies: ['HTML', 'CSS', 'Javascript'],
     Llive: 'https://cluab.github.io/portal-capstone1/index.html',
     Lsource: 'https://github.com/Cluab/portal-capstone1',
@@ -13,11 +13,11 @@ const workcard = [
 let workcardtwo = [
   {
     id: 1,
-    name: 'Multi-Post Stories',
+    name: '"To-do list"',
     description:
-      "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
-    Fimage: 'worksec worktwo cards',
-    technologies: ['html', 'bootstrap', 'Ruby'],
+      'A "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to add, edit, delete, and mark them as complete. Built with Es6 and Webpack and added some test cases using jest as its framework',
+    Fimage: ['worksec worktwo cards', '/img/id1.png'],
+    technologies: ['Es6', 'Webpack', 'jest'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
   },
@@ -26,7 +26,7 @@ let workcardtwo = [
     name: 'Data Dashboard Healthcare',
     description:
       "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
-    Fimage: 'workthree worktwo cards',
+    Fimage: ['workthree worktwo cards'],
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
@@ -36,7 +36,7 @@ let workcardtwo = [
     name: 'Multi-Post Stories',
     description:
       "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
-    Fimage: 'workfour worktwo cards',
+    Fimage: ['workfour worktwo cards'],
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
@@ -46,7 +46,7 @@ let workcardtwo = [
     name: 'Multi-Post Stories',
     description:
       "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
-    Fimage: 'worksec worktwo cards',
+    Fimage: ['worksec worktwo cards'],
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
@@ -56,7 +56,7 @@ let workcardtwo = [
     name: 'Data Dashboard Healthcare',
     description:
       "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
-    Fimage: 'workthree worktwo cards',
+    Fimage: ['workthree worktwo cards'],
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
@@ -66,7 +66,7 @@ let workcardtwo = [
     name: 'Multi-Post Stories',
     description:
       "A daily selection of privately personalized reads; no accounts  or sign-ups required. has been the industry's standard",
-    Fimage: 'workfour worktwo cards',
+    Fimage: ['workfour worktwo cards'],
     technologies: ['html', 'bootstrap', 'Ruby'],
     Llive: 'https://cluab.github.io/Portfolio/',
     Lsource: 'https://github.com/Cluab/Portfolio',
@@ -101,7 +101,7 @@ const workcardgrid = document.querySelector('.diffrent-work');
 function renderworkcardtwo() {
   workcardtwo.forEach((workcardtwo) => {
     workcardgrid.innerHTML += `
-        <div class="${workcardtwo.Fimage}">
+        <div class="${workcardtwo.Fimage[0]}">
           <div class="work-box-three work-box-two">
             <h5 class="work-three-title work-two-title">${workcardtwo.name}</h5>
             <p class="work-three-dis work-two-dis">${workcardtwo.description}</p>
@@ -150,7 +150,7 @@ function popup(id) {
  </div>
    </div>
    <div class ="desktop-popup">
-   <img class='popup-image' src="${workcardpop.Fimage}" alt="${workcardpop.name}">
+   <img class='popup-image' src="${workcardpop.Fimage[1]}" alt="${workcardpop.name}">
    <div class="popup-end">
      <p class="lorem">${workcardpop.description}</p>
    <p class="lorem-1">${workcardpop.description}</p>
