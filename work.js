@@ -1,13 +1,13 @@
 const workcard = [
   {
     id: 0,
-    name: 'Multi-Post Stories',
+    name: 'Microverse Article',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    Fimage: 'img/Img Placeholder.svg',
+      '(the Portal capstone project) this is my first capstone project in module one with Microverse where I created an Article base website that talked about Microverse. Built with JavaScript CSS and html',
+    Fimage: '/img/id0.png',
     technologies: ['HTML', 'CSS', 'Javascript'],
-    Llive: 'https://cluab.github.io/Portfolio/',
-    Lsource: 'https://github.com/Cluab/Portfolio',
+    Llive: 'https://cluab.github.io/portal-capstone1/index.html',
+    Lsource: 'https://github.com/Cluab/portal-capstone1',
   },
 ];
 let workcardtwo = [
@@ -120,10 +120,13 @@ renderworkcardtwo();
 
 function popup(id) {
   console.log(id);
-  if (id == 0) {
-    workcardtwo = workcard;
+  let card;
+  if (id / 2 === 0 / 2) {
+    card = workcard;
+  } else {
+    card = workcardtwo;
   }
-  workcardtwo.forEach((workcardpop) => {
+  card.forEach((workcardpop) => {
     if (workcardpop.id / 2 === id / 2) {
       const main = document.createElement('div');
       main.className = 'main-popup';
@@ -147,7 +150,7 @@ function popup(id) {
  </div>
    </div>
    <div class ="desktop-popup">
-   <img class='popup-image' src="img/Snapshoot Portfolio.png" alt="popup work preview">
+   <img class='popup-image' src="${workcardpop.Fimage}" alt="${workcardpop.name}">
    <div class="popup-end">
      <p class="lorem">${workcardpop.description}</p>
    <p class="lorem-1">${workcardpop.description}</p>
